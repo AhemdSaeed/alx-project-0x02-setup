@@ -1,16 +1,13 @@
-import React from 'react'
-import { CardProps } from '@/interfaces'
-const Card: React.FC<CardProps> = ({ content, title }) => {
-    return (
-        <div>
-            <div className='border rounded-lg shadow p-4 bg-white max-w-md '>
+import React from "react";
+import { type CardProps } from "@/interfaces";
 
-                <h2 className='text-xl font-semibold mb-2 text-blue-800'>{title}</h2>
-                <p className='text-gray-700'>{content}</p>
+const Card: React.FC<CardProps> = ({ title, content }) => {
+  return (
+    <div className="bg-white shadow-md p-4 rounded-lg border border-gray-200">
+      <h2 className="text-xl font-bold text-blue-600">{title}</h2>
+      <p className="text-gray-700 mt-2">{content}</p>
+    </div>
+  );
+};
 
-            </div>
-        </div>
-    )
-}
-
-export default Card
+export default Card;
