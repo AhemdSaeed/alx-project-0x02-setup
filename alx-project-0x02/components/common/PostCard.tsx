@@ -1,4 +1,3 @@
-// components/common/PostCard.tsx
 import React from "react";
 import { PostProps } from "@/interfaces";
 

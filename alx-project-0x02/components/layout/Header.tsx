@@ -1,4 +1,3 @@
-// components/layout/Header.tsx
 import Link from "next/link";
 import { useRouter } from "next/router";
 

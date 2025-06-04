@@ -1,4 +1,3 @@
-// components/common/Button.tsx
 import React from "react";
 import { type ButtonProps } from "@/interfaces";
 
