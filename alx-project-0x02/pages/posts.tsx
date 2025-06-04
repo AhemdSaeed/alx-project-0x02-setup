@@ -1,8 +1,8 @@
 // pages/posts.tsx
 import { useEffect, useState } from "react";
 import Header from "@/components/layout/Header";
-import PostCard from "@/components/common/PostCard";
 import { PostProps } from "@/interfaces";
+import { PostCard } from '@/components/common/PostCard';
 
 export default function PostsPage() {
   const [posts, setPosts] = useState<PostProps[]>([]);
